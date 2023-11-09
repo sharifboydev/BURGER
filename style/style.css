@@ -112,6 +112,7 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 46px;
 }
 
 .banner-info_title {
@@ -158,4 +159,47 @@ button {
 
 .banner-info_btn:hover {
   transform: scale(1.1);
+}
+
+.catalog {
+  width: 100%;
+}
+
+.catalog-navigation {
+  background-color: var(--darkgrey);
+}
+
+.catalog-container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.catalog-nav {
+  display: flex;
+  column-gap: 31px;
+}
+
+.catalog-nav_link {
+  font-size: 18px;
+  padding-block: 20px;
+  color: var(--light);
+  font-family: var(--RAR);
+  position: relative;
+}
+
+.catalog-nav_link::after {
+  content: "";
+  left: 0;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  transition: 0.4s;
+  position: absolute;
+  background-color: var(--light);
+}
+
+.catalog-nav_link:hover::after {
+  width: 100%;
 }
