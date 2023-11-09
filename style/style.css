@@ -1,0 +1,27 @@
+@import url(./fonts.css);
+
+:root {
+  --primary: #69cf17;
+  --secondary: #0c0c0c;
+  --darkgrey: #292929;
+  --lightgrey: #393936;
+  --light: #fff;
+  --RAEB: "Raleway-ExtraBold";
+  --RAR: "Raleway-Regular";
+  --RR: "Roboto-Regular";
+  --RAB: "Raleway-Bold";
+  --RT: "Raleway-Thin";
+  --RB: "Roboto-Bold";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  border: none;
+}
