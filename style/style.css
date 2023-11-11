@@ -112,13 +112,38 @@ button {
 .burger-menu {
   width: 35px;
   height: 21px;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
 .burger-menu span {
   width: 100%;
   height: 2px;
+  display: block;
+  position: relative;
   background-color: var(--light);
+}
+
+.burger-menu span::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: var(--light);
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+
+.burger-menu span::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: var(--light);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
 }
 
 .header-banner {

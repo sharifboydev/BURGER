@@ -6,7 +6,46 @@
 }
 
 @media (max-width: 768px) {
+    .header-nav {
+        padding-block: 4px;
+    }
+
     .header-nav_nav {
         display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-nav_logo {
+        font-size: 25px;
+        padding-block: 5px;
+    }
+
+    .header-top_nav {
+        gap: 15px;
+    }
+
+    .header-top_nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-top_nav {
+        display: none;
+    }
+
+    .header-top {
+        padding-block: 10px;
+        justify-content: center;
+    }
+
+    .header-nav_logo {
+        font-size: 20px;
+        padding: 3px 15px;
     }
 }
