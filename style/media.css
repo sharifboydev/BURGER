@@ -1,0 +1,12 @@
+@media (max-width:993px) {
+    .header-nav_logo {
+        font-size: 30px;
+        padding-block: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav_nav {
+        display: none;
+    }
+}

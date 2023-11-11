@@ -109,6 +109,18 @@ button {
   background-color: var(--primary);
 }
 
+.burger-menu {
+  width: 35px;
+  height: 21px;
+  background-color: red;
+}
+
+.burger-menu span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--light);
+}
+
 .header-banner {
   width: 100%;
   padding: 173px;
