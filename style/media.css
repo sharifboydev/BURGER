@@ -1,7 +1,40 @@
+@media (max-width: 1120px) {
+    .header-banner {
+        padding: 100px;
+    }
+}
+
 @media (max-width:993px) {
     .header-nav_logo {
         font-size: 30px;
         padding-block: 8px;
+    }
+
+    .header-banner {
+        padding: 100px 0;
+    }
+
+    .banner-info_title {
+        font-size: 60px;
+    }
+
+    .banner-info_subtitle {
+        font-size: 30px;
+        margin-block: 10px;
+    }
+
+    .banner-info_text {
+        font-size: 16px;
+    }
+
+    .banner-info_price {
+        font-size: 40px;
+        padding: 25px 60px;
+    }
+
+    .banner-info_btn {
+        font-size: 16px;
+        padding: 12px 55px;
     }
 }
 
@@ -16,6 +49,19 @@
 
     .burger-menu {
         display: flex;
+    }
+
+    .banner-info_title {
+        font-size: 50px;
+    }
+
+    .banner-info_subtitle {
+        font-size: 25px;
+        margin-block: 5px;
+    }
+
+    .banner-info_text {
+        font-size: 14px;
     }
 }
 
@@ -32,6 +78,29 @@
     .header-top_nav-link {
         font-size: 14px;
     }
+
+    .header-banner {
+        padding-block: 75px;
+    }
+
+    .banner-info_title {
+        font-size: 40px;
+    }
+
+    .banner-info_subtitle {
+        font-size: 20px;
+        margin-block: 5px;
+    }
+
+    .banner-info_price {
+        font-size: 30px;
+        padding: 20px 50px;
+    }
+
+    .banner-info_btn {
+        font-size: 14px;
+        padding: 10px 45px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -47,5 +116,13 @@
     .header-nav_logo {
         font-size: 20px;
         padding: 3px 15px;
+    }
+
+    .banner-info_text {
+        display: --webkit-box;
+        -webkit-line-clamp: 3   ;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
