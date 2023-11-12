@@ -39,6 +39,10 @@
 }
 
 @media (max-width: 768px) {
+    .header-top {
+        padding-block: 14px;
+    }
+
     .header-nav {
         padding-block: 4px;
     }
@@ -66,6 +70,10 @@
 }
 
 @media (max-width: 576px) {
+    .header-top {
+        padding-block: 14px;
+    }
+
     .header-nav_logo {
         font-size: 25px;
         padding-block: 5px;
@@ -104,12 +112,15 @@
 }
 
 @media (max-width: 420px) {
+    .container {
+        padding-inline: 15px;
+    }
+
     .header-top_nav {
         display: none;
     }
 
     .header-top {
-        padding-block: 10px;
         justify-content: center;
     }
 
@@ -119,10 +130,31 @@
     }
 
     .banner-info_text {
-        display: --webkit-box;
-        -webkit-line-clamp: 3   ;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .banner-info_price {
+        font-size: 25px;
+        padding: 15px 25px;
+    }
+
+    .banner-info_btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-banner {
+        padding-block: 50px;
+    }
+
+    .banner-info_btn {
+        font-size: 12px;
+        padding: 10px 20px;
     }
 }
