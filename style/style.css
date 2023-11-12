@@ -319,8 +319,11 @@ button {
 
 .location-info {
   padding-block: 20px;
-  text-align: center;
   background-color: var(--light);
+}
+
+.location-title {
+  text-align: center;
   font-size: 30px;
   color: var(--primary);
   font-family: var(--RAB);

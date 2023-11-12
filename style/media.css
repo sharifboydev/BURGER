@@ -157,6 +157,35 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+    .location-info {
+        padding-block: 15px;
+    }
+
+    .location-title {
+        font-size: 25px;
+    }
+
+    .footer-top {
+        padding-block: 25px;
+    }
+
+    .footer-top_logo {
+        font-size: 25px;
+        padding: 0 14px;
+    }
+
+    .footer-top_phone {
+        font-size: 15px;
+    }
+
+    .footer-nav {
+        padding-block: 30px 40px;
+    }
+
+    .footer-nav_link {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -202,6 +231,36 @@
 
     .content-card {
         width: 80%;
+    }
+
+    .location-info {
+        padding-block: 10px;
+    }
+
+    .location-title {
+        font-size: 20px;
+    }
+
+    .footer-top_logo {
+        font-size: 20px;
+        padding: 0 12px;
+    }
+
+    .footer-top_phone {
+        font-size: 14px;
+    }
+
+    .footer-nav {
+        padding-block: 25px 45px;
+    }
+
+    .footer-nav_link {
+        font-size: 16px;
+    }
+
+    .footer-item_text {
+        font-size: 14px;
+        padding-block: 15px;
     }
 }
 
